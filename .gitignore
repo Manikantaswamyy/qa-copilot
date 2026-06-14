@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+*.env
+
+# Uploads
+uploads/
+backend/uploads/
+
+# Generated files
+*.xlsx
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vite
+dist/
+
+# Logs
+npm-debug.log*
+
+*.xlsx
