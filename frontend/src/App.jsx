@@ -21,7 +21,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/upload",
+        "https://qa-copilot-backend-65w4.onrender.com/upload",
         {
           method: "POST",
           body: formData,
@@ -49,7 +49,7 @@ function App() {
       setLoading(true);
 
       const response = await fetch(
-        "http://localhost:5000/generate",
+        "https://qa-copilot-backend-65w4.onrender.com/generate",
         {
           method: "POST",
           headers: {
